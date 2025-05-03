@@ -3650,6 +3650,8 @@ NGitLab.Models.ProjectCreate.WikiAccessLevel.get -> string
 NGitLab.Models.ProjectCreate.WikiAccessLevel.set -> void
 NGitLab.Models.ProjectCreate.WikiEnabled.get -> bool
 NGitLab.Models.ProjectCreate.WikiEnabled.set -> void
+NGitLab.Models.ProjectCreate.TemplateName.get -> string
+NGitLab.Models.ProjectCreate.TemplateName.set -> void
 NGitLab.Models.ProjectGroupsQuery
 NGitLab.Models.ProjectGroupsQuery.ProjectGroupsQuery() -> void
 NGitLab.Models.ProjectGroupsQuery.Search.get -> string

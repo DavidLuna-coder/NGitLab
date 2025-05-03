@@ -68,7 +68,7 @@ public class ProjectCreate
     public string WikiAccessLevel { get; set; }
 
     [JsonPropertyName("import_url")]
-    public string ImportUrl { get; set; } = string.Empty;
+    public string ImportUrl { get; set; }
 
     [JsonPropertyName("visibility")]
     public VisibilityLevel VisibilityLevel { get; set; }
@@ -88,4 +88,6 @@ public class ProjectCreate
 
     [JsonPropertyName("squash_option")]
     public SquashOption? SquashOption { get; set; }
+    [JsonPropertyName("template_name")]
+    public string TemplateName { get; set; }
 }
